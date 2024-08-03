@@ -29,9 +29,9 @@ class DrawerImage extends StatelessWidget {
           clipBehavior: Clip.antiAlias,
           height: 80,
           width: 80,
-          decoration: BoxDecoration(shape: BoxShape.circle),
+          decoration: const BoxDecoration(shape: BoxShape.circle),
           child: Image.asset(
-            'assets/images/sayedali.jpg',
+            'assets/images/sayed ali  v2 cropped.png',
             fit: BoxFit.cover,
           )),
     );

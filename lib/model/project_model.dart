@@ -9,9 +9,9 @@ class Project {
 List<Project> projectList = [
   Project(
     'Chahel The e-Learning App',
-    'Presenting "Coffee" - a Flutter UI application that invites you to indulge in a delightful coffee adventure. Immerse yourself in the world of rich aroma and flavor as you browse through an exquisite selection of specialty coffees. With a user-friendly interface, exploring different blends and discovering their unique details becomes a delightful experience.',
+    "Chahel Learning App, is a comprehensive e-learning companion available on both Android and iOS platforms. With courses spanning from kindergarten to 12th standard, students can embark on an educational journey customized to their needs. The app features exclusive access to Chahel's private YouTube channel, offering high-quality content designed to support students' academic growth. Whether mastering foundational concepts or tackling advanced topics, the Chahel Learning App provides a structured learning environment for students of all levels. With seamless access to educational resources within the app, students can focus on their studies without distractions.",
     'assets/images/coffee.png',
-    'https://github.com/Hamad-Anwar/Coffe-Shop-Beautifull-UI',
+    'https://play.google.com/store/apps/details?id=com.chahel_learning',
   ),
   // Project(
   //   'Car Controller Application UI',

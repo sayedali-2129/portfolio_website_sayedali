@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -14,14 +13,15 @@ class ProjectLinks extends StatelessWidget {
       children: [
         Row(
           children: [
-            Text('Check on Github',
-                style: GoogleFonts.montserrat(color: Colors.white),
-                overflow: TextOverflow.ellipsis),
             IconButton(
                 onPressed: () {
                   launchUrl(Uri.parse(projectList[index].link));
                 },
-                icon: SvgPicture.asset('assets/icons/github.svg')),
+                icon: Image.asset(
+                  'assets/icons/playstore.png',
+                  scale: 18,
+                  color: Colors.grey,
+                )),
           ],
         ),
         const Spacer(),
