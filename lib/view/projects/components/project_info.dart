@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:portfolio_website_sayedali/model/project_model.dart';
-import 'package:portfolio_website_sayedali/view/projects/components/image_viewer.dart';
 import 'package:portfolio_website_sayedali/view/projects/components/project_deatail.dart';
+import 'package:portfolio_website_sayedali/view/projects/project_detail.dart';
 
 import '../../../res/constants.dart';
 import '../../../view model/getx_controllers/projects_controller.dart';
@@ -18,8 +17,13 @@ class ProjectStack extends StatelessWidget {
         controller.onHover(index, value);
       },
       onTap: () {
-        ImageViewer(context, projectList[index].image);
+        // ImageViewer(context, projectList[index].image);
         // SfPdfViewer.asset('assets/images/chahel portfolio.pdf');
+        Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => const ProjectDetails(),
+            ));
       },
       borderRadius: BorderRadius.circular(30),
       child: AnimatedContainer(

@@ -22,7 +22,7 @@ class TitleText extends StatelessWidget {
                   ? Responsive.isLargeMobile(context)
                       ? 20
                       : 30
-                  : 50,
+                  : 40,
               fontWeight: FontWeight.bold),
         ),
         kIsWeb && Responsive.isDesktop(context)
