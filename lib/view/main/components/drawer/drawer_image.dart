@@ -21,9 +21,8 @@ class DrawerImage extends StatelessWidget {
           ),
           boxShadow: const [
             BoxShadow(
-                color: Colors.orange, blurRadius: 10, offset: Offset(0, 2)),
-            BoxShadow(
-                color: Colors.blue, blurRadius: 10, offset: Offset(0, -2)),
+                color: Colors.orange, blurRadius: 5, offset: Offset(0, 2)),
+            BoxShadow(color: Colors.blue, blurRadius: 5, offset: Offset(0, -2)),
           ]),
       child: Container(
           clipBehavior: Clip.antiAlias,

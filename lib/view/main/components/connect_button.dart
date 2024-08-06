@@ -46,7 +46,7 @@ class ConnectButton extends StatelessWidget {
                 ),
                 const SizedBox(width: defaultPadding / 4),
                 Text(
-                  'Whatsapp',
+                  'Connect',
                   style: Theme.of(context).textTheme.labelSmall!.copyWith(
                       color: Colors.white,
                       letterSpacing: 1.2,

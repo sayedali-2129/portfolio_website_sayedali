@@ -35,7 +35,7 @@ class DownloadButton extends StatelessWidget {
         child: Row(
           children: [
             Text(
-              'Download CV',
+              'View Resume',
               style: Theme.of(context).textTheme.labelSmall!.copyWith(
                   color: Colors.white,
                   letterSpacing: 1.2,

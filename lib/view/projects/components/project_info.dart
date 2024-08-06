@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:portfolio_website_sayedali/model/project_model.dart';
 import 'package:portfolio_website_sayedali/view/projects/components/project_deatail.dart';
 import 'package:portfolio_website_sayedali/view/projects/project_detail.dart';
 
@@ -22,7 +23,7 @@ class ProjectStack extends StatelessWidget {
         Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) => const ProjectDetails(),
+              builder: (context) => ProjectDetails(project: projectList[index]),
             ));
       },
       borderRadius: BorderRadius.circular(30),
